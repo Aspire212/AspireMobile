@@ -320,6 +320,7 @@ margin-bottom: 40px;
   text-align: center;
 	display: flex;
 	justify-content: space-between;
+	padding-top: 30px;
 }
 .footer__left_column li{
 	font-family: OpenSans;
