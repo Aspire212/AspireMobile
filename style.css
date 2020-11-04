@@ -65,7 +65,7 @@ html{
 	border: 2px solid lightgray;
 	position: absolute;
 	top: 4px;
-	left: 145px;
+	left: 140px;
 }
 .header__menu {
 	display: flex;
@@ -365,7 +365,7 @@ margin-bottom: 40px;
 	border: 2px solid lightgray;
 	position: absolute;
 	top: 4px;
-	left: 145px;
+	left: 140px;
 }
 @media screen and (max-width: 810px){
 	
@@ -385,7 +385,7 @@ margin-bottom: 40px;
 	z-index: 1;
 }
 .header__logo_text::before{
-	left: 156px;
+	left: 150px;
 	z-index: 1;
 }
 	.header__logo_text {
