@@ -356,7 +356,7 @@ margin-bottom: 40px;
 	color: lightgray;
 	position: relative;
 	top: 50px;
-	right: 0;
+	right: 20px;
 }
 .footer_logo::before{
 	content: "";
