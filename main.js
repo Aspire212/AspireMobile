@@ -3,9 +3,12 @@ let  btn = document.querySelector('.header__burger_btn');
 let  menu = document.querySelector('.header__menu');
 let  bodyLock = document.querySelector('.body');
 
+let header = document.querySelector('.header');
 
 //открытие выпадающего меню понажатию на кастомную кнопку
-
+window.onload = function(){
+  header.classList.add('active');
+}
 transBtn.addEventListener('click', function() {
 	btn.classList.toggle('_active');
 	menu.classList.toggle('_active');
@@ -32,6 +35,5 @@ window.addEventListener('scroll', function(){
 })
 arrowUp.addEventListener('click', function(){
 window.scrollTo(0, 0);
-})
-
-
+}
+)

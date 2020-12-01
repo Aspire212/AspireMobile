@@ -34,10 +34,16 @@ html{
 	background-color: #16a085;
 	margin: 0 auto;
 	position: fixed;
-	top: 0;
+	top: -60px;
 	left: 50%;
 	transform: translate(-50%);
+	opacity: 0;
 	
+}
+.header.active{
+  top: 0;
+  opacity: 1;
+  transition: all 0.5s ease 0.2s;
 }
 .header__container {
 	display: flex;
@@ -499,7 +505,7 @@ margin-bottom: 40px;
 	.header__menu._active{
 		bottom: -100vh;
 		height: 100vh;
-		background-color:rgba(9%, 63%, 52%, 0.8);;
+		background-color:rgba(9%, 63%, 52%, 0.8);
 		transition: all 0.2s linear;
 		overflow-y: scroll;
 		z-index: 0;
@@ -532,7 +538,7 @@ margin-bottom: 40px;
     align-items: center;
 	}
 	.footer_logo{
-	  right: 0px;
+	  right: 0px; 
 	}
 
   .footer_logo::before{
